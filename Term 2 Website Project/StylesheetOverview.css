@@ -1,0 +1,193 @@
+@font-face {
+	font-family: 		Main;
+	src: 				url(Images/HeadlinerNo.45.ttf);
+}
+
+body.Overview {
+	background-color: 	#090907;
+	font-family:		Verdana;
+	color:				#090907;
+}
+
+
+ul.menu {
+	list-style-type:	none;
+	margin: 			0;
+	padding:			0;
+	overflow: 			hidden;
+	background-color:	#EBB014;
+}
+
+a.ref {
+	color:				Green;
+}
+
+a:visited.ref {
+	color:				Green;
+}
+
+a:hover.ref {
+	color:				blue;
+}
+
+a:active.ref {
+	color:				#DE8D00;
+}
+a.directory {
+	font-family:		Verdana;
+	color:				#090907;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:visited.directory {
+	font-family:		Verdana;
+	color:				#090907;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:hover.directory {
+	font-family:		Verdana;
+	color:				#DE8D00;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:acive.directory {
+	font-family:		Verdana;
+	color:				#EBB014;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+li.gallery {
+	float: 				center;
+	font-family:		'Main';
+	font-size:			30px;
+	letter-spacing: 	15px;
+	border-bottom:		10px solid #DE8D00;
+}
+
+li.gallery a {
+	display: 			block;
+	color: 				#090907;
+	text-align:			center;
+	padding: 			14px 16px;
+	text-decoration: 	none;
+}
+
+li.gallery a:hover {
+	background-color: 	#FFDE40;
+}
+
+li.gallery a:active {
+	background-color: 	#FFDE40;
+}
+
+li.link {
+	float: 				center;
+	font-family:		'Main';
+	font-size:			30px;
+	letter-spacing: 	15px;
+}
+
+li.link a {
+	display: 			block;
+	color: 				#090907;
+	text-align:			center;
+	padding: 			14px 16px;
+	text-decoration: 	none;
+}
+
+li.link a:hover {
+	background-color: 	#FFDE40;
+}
+
+li.link a:active {
+	background-color: 	#FFDE40;
+}
+
+.Overviewcontainer {
+	width: 				1000px;
+	background-color: 	#FFF512;
+	border: 			10px solid #DE8D00;
+	margin-top:			30px;
+	margin-bottom:			30px;
+	margin-left: 		auto;
+	margin-right: 		auto;
+	height: 			6000;
+}
+
+.content {
+	width: 				960px;
+	padding: 			20px;
+}
+
+p {	
+	line-height:	 	1.5em;
+	font-size: 			14pt;
+}
+
+p.singledescription {	
+	line-height:	 	1.5em;
+	font-size: 			14pt;
+	text-align:			center;
+}
+
+img.Main {
+	float: 				center;
+	margin-right: 		20px;
+	margin-bottom: 		5px;
+	box-shadow: 		0 4px 8px 0;
+}
+
+img {
+	margin-bottom: 		5px;
+	box-shadow: 		0 4px 8px 0;
+}
+
+.poster {
+	margin-left: 		160px;
+}
+
+.pic {
+	margin-left: 		145px;
+}
+
+h1.logo {
+	font-family:		'Main';
+	text-align:			center;
+	font-size:			100px;
+	letter-spacing: 	6px;
+	color:				#DE8D00;
+	border:				15px solid #DE8D00;
+	margin-left: 		110px;
+	margin-right: 		140px;
+	padding:			2px 2px;
+	padding-top:		2px 2px;
+	padding-bottom:		2px 2px;
+}
+
+h2 {
+	font-family:		'Main';
+	color:				white;
+	text-align:			left;
+	font-size:			65px;
+	letter-spacing: 	15px;
+}
+
+h3 {
+	font-family:		'Main';
+	color:				white;
+	text-align:			left;
+	font-size:			30px;
+	letter-spacing: 	10px;
+}
+
+iframe {
+	float:				center;
+	width: 				560px; 
+	height: 			315px;
+	margin-left:		200px
+}
