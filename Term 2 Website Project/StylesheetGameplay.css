@@ -119,6 +119,11 @@ img {
 	margin-bottom: 		5px;
 }
 
+img.table {
+		width:			100px;
+		height:			100px;
+}
+
 .poster {
 	margin-left: 		160px;
 }
@@ -157,9 +162,47 @@ h3 {
 	letter-spacing: 	10px;
 }
 
+h4 {
+	font-family:		'Main';
+	color:				white;
+	text-align:			left;
+	font-size:			25px;
+	letter-spacing: 	10px;
+}
+
 iframe {
 	float:				center;
 	width: 				560px; 
 	height: 			315px;
 	margin-left:		200px
+}
+table, th, td {
+	border-bottom: 		1px solid #090907;
+	text-align:			center;
+}
+
+table {
+	width:				960px;
+}
+
+tr:nth-child(even) {
+	background-color:	#DE8D00;
+}
+
+tr:nth-child(odd) {
+	background-color:	#1aa3ff;
+}
+
+td:hover {
+	background-color:	#FFDE40;
+	color:				white;
+}
+
+th, td {
+	padding:			5px;
+}	
+
+th {
+	background-color: 	black;
+	color:				white;
 }
