@@ -162,7 +162,7 @@ h3 {
 	letter-spacing: 	10px;
 }
 
-h4 {
+h4, h5, h6 {
 	font-family:		'Main';
 	color:				white;
 	text-align:			left;
@@ -177,7 +177,6 @@ iframe {
 	margin-left:		200px
 }
 table, th, td {
-	border-bottom: 		1px solid #090907;
 	text-align:			center;
 }
 
@@ -185,22 +184,119 @@ table {
 	width:				960px;
 }
 
+table.item {
+	width:				960px;
+	height:				500px;
+}
+
 tr:nth-child(even) {
-	background-color:	#DE8D00;
+	background-color:	#003300;
 }
 
 tr:nth-child(odd) {
-	background-color:	#1aa3ff;
+	background-color:	#006600;
 }
 
 td:hover {
-	background-color:	#FFDE40;
+	background-color:	#DE8D00;
 	color:				white;
 }
 
 th, td {
 	padding:			5px;
 }	
+
+td.items {
+	padding:			5px;
+}
+
+td:hover.firstaid {
+	padding:			5px;
+	background-image:	url(Images/firstaid.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.medkit {
+	padding:			5px;
+	background-image:	url(Images/medkit.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.bandage {
+	padding:			5px;
+	background-image:	url(Images/bandage.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.energydrink {
+	padding:			5px;
+	background-image:	url(Images/energydrink.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.painkiller {
+	padding:			5px;
+	background-image:	url(Images/painkiller.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.adrenaline {
+	padding:			5px;
+	background-image:	url(Images/adrenaline.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.hermo {
+	padding:			5px;
+	background-image:	url(Images/hermo.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.gas {
+	padding:			5px;
+	background-image:	url(Images/gas.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.vehicle {
+	padding:			5px;
+	background-image:	url(Images/vehicle.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.helmet {
+	padding:			5px;
+	background-image:	url(Images/helmetrepair.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
+
+td:hover.vest {
+	padding:			5px;
+	background-image:	url(Images/vestrepair.png);
+	background-size:	100px;
+	background-repeat:	no-repeat;
+	background-position:center;
+}
 
 th {
 	background-color: 	black;
