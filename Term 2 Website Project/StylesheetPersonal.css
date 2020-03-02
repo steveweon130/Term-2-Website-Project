@@ -3,10 +3,10 @@
 	src: 				url(Images/HeadlinerNo.45.ttf);
 }
 
-body.Gameplay {
-	background-color: 	#0d590d;
+body.Personal {
+	background-color: 	#f2f6f2;
 	font-family:		Verdana;
-	color:				white;
+	color:				#090907;
 }
 
 ul.menu {
@@ -14,7 +14,7 @@ ul.menu {
 	margin: 			0;
 	padding:			0;
 	overflow: 			hidden;
-	background-color:	#007acc;
+	background-color:	#999999;
 }
 
 a.ref {
@@ -34,7 +34,7 @@ a:active.ref {
 }
 a.directory {
 	font-family:		Verdana;
-	color:				white;
+	color:				#090907;
 	font-size:			20px;
 	text-decoration: 	none;
 }
@@ -65,29 +65,29 @@ li.link {
 	font-family:		'Main';
 	font-size:			30px;
 	letter-spacing: 	15px;
-	border-bottom:		10px solid #090907;
+	border-bottom:		10px solid #ff3333;
 }
 
 li.link a {
 	display: 			block;
-	color: 				#090907;
+	color: 				#ff6666;
 	text-align:			center;
 	padding: 			14px 16px;
 	text-decoration: 	none;
 }
 
 li.link a:hover {
-	background-color: 	#1aa3ff;
+	background-color: 	#008000;
 }
 
 li.link a:active {
-	background-color: 	#1aa3ff;
+	background-color: 	#008000;
 }
 
-.Gameplaycontainer {
+.Personalcontainer {
 	width: 				1000px;
-	background-color: 	#e60000;
-	border: 			10px solid #090907;
+	background-color: 	#e7e4e4;
+	border: 			10px solid #ff3333;
 	margin-left: 		auto;
 	margin-right: 		auto;
 	height: 			6000;
@@ -148,13 +148,13 @@ img.sign {
 	margin-left: 		145px;
 }
 
-h1.logoGameplay {
+h1.logoPersonal {
 	font-family:		'Main';
 	text-align:			center;
 	font-size:			100px;
 	letter-spacing: 	6px;
-	color:				#090907;
-	border:				15px solid #090907;
+	color:				#ff6666;
+	border:				15px solid #ff6666;
 	margin-left: 		110px;
 	margin-right: 		140px;
 	padding:			2px 2px;
