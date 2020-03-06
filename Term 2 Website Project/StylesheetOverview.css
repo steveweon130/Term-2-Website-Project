@@ -61,6 +61,34 @@ a:acive.directory {
 	text-decoration: 	none;
 }
 
+a.b2t {
+	font-family:		Verdana;
+	color:				Green;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:visited.b2t {
+	font-family:		Verdana;
+	color:				Green;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:hover.b2t {
+	font-family:		Verdana;
+	color:				#DE8D00;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:acive.b2t {
+	font-family:		Verdana;
+	color:				#EBB014;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
 li.gallery {
 	float: 				center;
 	font-family:		'Main';

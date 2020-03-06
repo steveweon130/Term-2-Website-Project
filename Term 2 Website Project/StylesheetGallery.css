@@ -4,7 +4,7 @@
 }
 
 body.Gallery {
-	background-color: 	#0011ff;
+	background-color: 	#df915e;
 	font-family:		Verdana;
 	color:				#090907;
 }
@@ -14,7 +14,7 @@ ul.menu {
 	margin: 			0;
 	padding:			0;
 	overflow: 			hidden;
-	background-color:	#999999;
+	background-color:	#d0b7ac;
 }
 
 a.ref {
@@ -54,6 +54,34 @@ a:hover.directory {
 }
 
 a:acive.directory {
+	font-family:		Verdana;
+	color:				#EBB014;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a.b2t {
+	font-family:		Verdana;
+	color:				Green;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:visited.b2t {
+	font-family:		Verdana;
+	color:				Green;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:hover.b2t {
+	font-family:		Verdana;
+	color:				#DE8D00;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:acive.b2t {
 	font-family:		Verdana;
 	color:				#EBB014;
 	font-size:			20px;
@@ -109,7 +137,7 @@ li.gallery a:active {
 
 div.Gallerycontainer {
 	width: 				1000px;
-	background-color: 	#f0b359;
+	background-color: 	#e6af44;
 	border: 			10px solid #090907;
 	margin-left: 		auto;
 	margin-right: 		auto;
@@ -202,13 +230,13 @@ iframe {
 
 div.pic {
 	margin: 			5px;
-	border: 			5px solid #7bc7e8;
+	border: 			5px solid #9698a6;
 	float: 				left;
 	width: 				180px;
 }
 
 div.pic:hover {
-	border: 			5px solid #0011ff;
+	border: 			5px solid #d0b7ac;
 }
 
 div.pic img {
@@ -219,5 +247,28 @@ div.pic img {
 div.desc {
 	padding: 			15px;
 	text-align: 		center;
-	background-color:	#7bc7e8;
+	background-color:	#9698a6;
+}
+
+div.picleft {
+	margin: 			5px;
+	margin-left:		90px;
+	border: 			5px solid #9698a6;
+	float: 				left;
+	width: 				180px;
+}
+
+div.picleft:hover {
+	border: 			5px solid #d0b7ac;
+}
+
+div.picleft img {
+	width: 				100%;
+	height: 			auto;
+}
+
+div.desc {
+	padding: 			15px;
+	text-align: 		center;
+	background-color:	#9698a6;
 }

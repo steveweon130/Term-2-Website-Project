@@ -60,6 +60,34 @@ a:acive.directory {
 	text-decoration: 	none;
 }
 
+a.b2t {
+	font-family:		Verdana;
+	color:				Green;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:visited.b2t {
+	font-family:		Verdana;
+	color:				Green;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:hover.b2t {
+	font-family:		Verdana;
+	color:				#DE8D00;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
+a:acive.b2t {
+	font-family:		Verdana;
+	color:				#EBB014;
+	font-size:			20px;
+	text-decoration: 	none;
+}
+
 li.link {
 	float: 				center;
 	font-family:		'Main';
@@ -166,7 +194,7 @@ h2 {
 	font-family:		'Main';
 	color:				#090907;
 	text-align:			left;
-	font-size:			65px;
+	font-size:			80px;
 	letter-spacing: 	15px;
 }
 
@@ -174,7 +202,7 @@ h3 {
 	font-family:		'Main';
 	color:				white;
 	text-align:			left;
-	font-size:			50px;
+	font-size:			70px;
 	letter-spacing: 	10px;
 	text-align:			center;
 }
@@ -183,7 +211,7 @@ h4 {
 	font-family:		'Main';
 	color:				white;
 	text-align:			left;
-	font-size:			40px;
+	font-size:			50px;
 	letter-spacing: 	10px;
 	text-align:			center;
 }
@@ -192,7 +220,7 @@ h5 {
 	font-family:		'Main';
 	color:				white;
 	text-align:			left;
-	font-size:			30px;
+	font-size:			40px;
 	letter-spacing: 	10px;
 	text-align:			center;
 }
@@ -201,7 +229,7 @@ h6 {
 	font-family:		'Main';
 	color:				white;
 	text-align:			left;
-	font-size:			25px;
+	font-size:			30px;
 	letter-spacing: 	10px;
 	text-align:			center;
 }
